@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.safaralialisultanov.realmexample.PersonDetailsActivity">
+    tools:context="com.example.safaralialisultanov.realmexample.MainActivity">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,34 +31,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:text="hello World"/>
+            tools:text="hello World" />
         <TextView
             android:id="@+id/tvPersonDetailName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:text="hello World"/>
+            tools:text="hello World" />
         <TextView
             android:id="@+id/tvPersonDetailEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:text="hello World"/>
+            tools:text="hello World" />
         <TextView
             android:id="@+id/tvPersonDetailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:text="hello World"/>
+            tools:text="hello World" />
         <TextView
             android:id="@+id/tvPersonDetailAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            tools:text="hello World"/>
-
+            tools:text="hello World" />
     </LinearLayout>
-
-
-
 </android.support.design.widget.CoordinatorLayout>

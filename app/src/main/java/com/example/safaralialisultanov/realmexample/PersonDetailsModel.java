@@ -9,12 +9,11 @@ import io.realm.annotations.PrimaryKey;
 public class PersonDetailsModel extends RealmObject {
 
     @PrimaryKey
-    private  int id;
+    private int id;
     private String name;
     private String email;
     private String address;
     private int age;
-
     public int getId() {
         return id;
     }
